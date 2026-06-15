@@ -23,7 +23,7 @@
 
 ## Sobre
 
-O **Nexo** é um ambiente de desenvolvimento desktop pensado para quem trabalha com o [Claude Code](https://github.com/anthropics/claude-code). Ele reúne, em um só lugar, o fluxo de quem desenvolve com agentes de IA — rápido, integrado e multiplataforma, com tratamento de primeira classe para [WSL](https://learn.microsoft.com/windows/wsl/) no Windows.
+O **Nexo** é um ambiente de desenvolvimento desktop pensado para quem trabalha com o [Claude Code](https://github.com/anthropics/claude-code). Ele reúne, em um só lugar, o fluxo de quem desenvolve com agentes de IA: rápido, integrado e multiplataforma, com tratamento de primeira classe para [WSL](https://learn.microsoft.com/windows/wsl/) no Windows.
 
 ## Download e instalação
 
@@ -53,7 +53,7 @@ Baixe o instalador da sua plataforma na **[página de releases](https://github.c
 
 ## Atualizações automáticas
 
-O Nexo se **atualiza sozinho**: ao abrir, ele checa por novas versões aqui no repositório de releases e avisa quando há uma disponível. Você decide quando **baixar** e, depois, **reiniciar** para aplicar — nada é instalado às escondidas. (Windows e Linux AppImage têm atualização automática; pacotes `.deb` são atualizados pelo gerenciador do sistema.)
+O Nexo se **atualiza sozinho**: ao abrir, ele checa por novas versões aqui no repositório de releases e avisa quando há uma disponível. Você decide quando **baixar** e, depois, **reiniciar** para aplicar; nada é instalado às escondidas. (Windows e Linux AppImage têm atualização automática; pacotes `.deb` são atualizados pelo gerenciador do sistema.)
 
 ## Suporte
 
