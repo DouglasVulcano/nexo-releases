@@ -5,8 +5,7 @@
 <h1 align="center">Nexo</h1>
 
 <p align="center">
-  Gerenciador desktop para o ecossistema local do <a href="https://github.com/anthropics/claude-code">Claude Code</a>:
-  sessões, skills, servidores MCP, terminal embutido, controle de versão por aba e um gerenciador de bancos de dados.
+  Um ambiente de desenvolvimento desktop para o <a href="https://github.com/anthropics/claude-code">Claude Code</a>.
   <br/>
   Windows · Linux · macOS, com tratamento de primeira classe para <a href="https://learn.microsoft.com/windows/wsl/">WSL</a>.
 </p>
@@ -20,21 +19,11 @@
 
 ---
 
-> Este é o canal oficial de **distribuição** do Nexo. Aqui ficam apenas os instaladores e os metadados de atualização automática. O código-fonte é mantido em repositório privado.
+> Este é o canal oficial de **distribuição** do Nexo. Aqui ficam apenas os instaladores e os metadados de atualização automática.
 
-## Índice
+## Sobre
 
-- [O que é o Nexo](#o-que-é-o-nexo)
-- [Download e instalação](#download-e-instalação)
-- [Atualizações automáticas](#atualizações-automáticas)
-- [Funcionalidades](#funcionalidades)
-- [Requisitos](#requisitos)
-- [Suporte](#suporte)
-- [Licença](#licença)
-
-## O que é o Nexo
-
-O **Nexo** reúne, em um único aplicativo desktop, tudo o que o [Claude Code](https://github.com/anthropics/claude-code) espalha pelo sistema de arquivos da sua máquina. Ele varre as instalações do Claude Code (no host e dentro de cada distro WSL no Windows), indexa **sessões**, **skills** e **servidores [MCP](https://modelcontextprotocol.io)**, e oferece um **terminal embutido** para retomar qualquer sessão no ambiente correto com um clique. Inclui ainda **controle de versão por aba** (estilo VS Code) e um **gerenciador de bancos de dados** que pode dar contexto de banco ao próprio Claude Code.
+O **Nexo** é um ambiente de desenvolvimento desktop pensado para quem trabalha com o [Claude Code](https://github.com/anthropics/claude-code). Ele reúne, em um só lugar, o fluxo de quem desenvolve com agentes de IA — rápido, integrado e multiplataforma, com tratamento de primeira classe para [WSL](https://learn.microsoft.com/windows/wsl/) no Windows.
 
 ## Download e instalação
 
@@ -44,7 +33,6 @@ Baixe o instalador da sua plataforma na **[página de releases](https://github.c
 
 1. Baixe o `Nexo-Setup-x.y.z.exe` e execute.
 2. Na primeira execução, o SmartScreen pode exibir "editor desconhecido" (o app ainda não é assinado): clique em **Mais informações → Executar assim mesmo**.
-3. O instalador verifica se você tem **Node.js** e **Git** e, se faltarem, oferece instalá-los (são usados pelo Claude Code e pelas ferramentas de banco). Você pode aceitar ou pular.
 
 ### Linux
 
@@ -65,22 +53,7 @@ Baixe o instalador da sua plataforma na **[página de releases](https://github.c
 
 ## Atualizações automáticas
 
-O Nexo se **atualiza sozinho**: ao abrir, ele checa por novas versões aqui no repositório de releases e avisa quando há uma disponível. Você decide quando **baixar** e, depois, **reiniciar** para aplicar - nada é instalado às escondidas. (Windows e Linux AppImage têm atualização automática; pacotes `.deb` são atualizados pelo gerenciador do sistema.)
-
-## Funcionalidades
-
-- **Sessões** - varre `~/.claude/projects/**` lendo só o cabeçalho de cada arquivo; filtros, busca, favoritos, fork, histórico de transcript e retomada no ambiente certo (Windows, WSL ou local).
-- **Workspaces** - agrupamentos coloridos que filtram sessões e terminais, com regras de auto-atribuição por caminho.
-- **Console** - terminais multi-aba (PowerShell, WSL ou shell nativo) com split panes, busca, zoom, dock flutuante e restauração de layout.
-- **Controle de versão por aba** - painel multi-repositório com staged/unstaged, diff lado a lado, editor de arquivo, troca de branch, commit/push/pull/fetch e geração de mensagem de commit por IA.
-- **Skills e MCP** - listagem e instalação de skills (GitHub/template) e de servidores MCP, com galerias dos catálogos oficiais.
-- **Bancos de dados** - conexões PostgreSQL, MySQL, SQLite e SQL Server (com túnel SSH e modo somente-leitura), editor SQL, navegação relacional e a opção de **vincular um banco à sessão** para dar contexto ao Claude Code.
-
-## Requisitos
-
-- **Windows** 10/11 (com suporte de primeira classe a WSL), **Linux** ou **macOS**.
-- **Node.js** instalado para rodar o Claude Code (o instalador do Windows pode provisioná-lo).
-- O **[Claude Code](https://github.com/anthropics/claude-code)** instalado no ambiente que você quer gerenciar.
+O Nexo se **atualiza sozinho**: ao abrir, ele checa por novas versões aqui no repositório de releases e avisa quando há uma disponível. Você decide quando **baixar** e, depois, **reiniciar** para aplicar — nada é instalado às escondidas. (Windows e Linux AppImage têm atualização automática; pacotes `.deb` são atualizados pelo gerenciador do sistema.)
 
 ## Suporte
 
