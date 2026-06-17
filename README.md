@@ -5,38 +5,42 @@
 <h1 align="center">Nexo</h1>
 
 <p align="center">
-  Um ambiente de desenvolvimento desktop para o <a href="https://github.com/anthropics/claude-code">Claude Code</a>.
+  A desktop development environment for <a href="https://github.com/anthropics/claude-code">Claude Code</a>.
   <br/>
-  Windows · Linux · macOS, com tratamento de primeira classe para <a href="https://learn.microsoft.com/windows/wsl/">WSL</a>.
+  Windows · Linux · macOS, with first-class support for <a href="https://learn.microsoft.com/windows/wsl/">WSL</a>.
 </p>
 
 <p align="center">
-  <a href="https://github.com/DouglasVulcano/nexo-releases/releases/latest"><img src="https://img.shields.io/github/v/release/DouglasVulcano/nexo-releases?label=vers%C3%A3o&color=f2762e" alt="Última versão" /></a>
+  <a href="https://github.com/DouglasVulcano/nexo-releases/releases/latest"><img src="https://img.shields.io/github/v/release/DouglasVulcano/nexo-releases?label=version&color=f2762e" alt="Latest version" /></a>
   <a href="https://github.com/DouglasVulcano/nexo-releases/releases"><img src="https://img.shields.io/github/downloads/DouglasVulcano/nexo-releases/total?label=downloads&color=47848F" alt="Downloads" /></a>
-  <a href="LICENSE"><img src="https://img.shields.io/badge/licen%C3%A7a-MIT-blue.svg" alt="Licença MIT" /></a>
-  <img src="https://img.shields.io/badge/plataformas-Windows%20%C2%B7%20Linux%20%C2%B7%20macOS-555" alt="Plataformas" />
+  <a href="LICENSE"><img src="https://img.shields.io/badge/license-MIT-blue.svg" alt="MIT License" /></a>
+  <img src="https://img.shields.io/badge/platforms-Windows%20%C2%B7%20Linux%20%C2%B7%20macOS-555" alt="Platforms" />
+</p>
+
+<p align="center">
+  <strong>English</strong> · <a href="README.pt-BR.md">Português</a>
 </p>
 
 ---
 
-> Este é o canal oficial de **distribuição** do Nexo. Aqui ficam apenas os instaladores e os metadados de atualização automática.
+> This is the official **distribution** channel for Nexo. It hosts only the installers and the auto-update metadata.
 
-## Sobre
+## About
 
-O **Nexo** é um ambiente de desenvolvimento desktop pensado para quem trabalha com o [Claude Code](https://github.com/anthropics/claude-code). Ele reúne, em um só lugar, o fluxo de quem desenvolve com agentes de IA: rápido, integrado e multiplataforma, com tratamento de primeira classe para [WSL](https://learn.microsoft.com/windows/wsl/) no Windows.
+**Nexo** is a desktop development environment built for people working with [Claude Code](https://github.com/anthropics/claude-code). It brings the AI-agent development workflow together in one place: fast, integrated and cross-platform, with first-class support for [WSL](https://learn.microsoft.com/windows/wsl/) on Windows.
 
-## Download e instalação
+## Download and install
 
-Baixe o instalador da sua plataforma na **[página de releases](https://github.com/DouglasVulcano/nexo-releases/releases/latest)**.
+Download the installer for your platform from the **[releases page](https://github.com/DouglasVulcano/nexo-releases/releases/latest)**.
 
 ### Windows
 
-1. Baixe o `Nexo-Setup-x.y.z.exe` e execute.
-2. Na primeira execução, o SmartScreen pode exibir "editor desconhecido" (o app ainda não é assinado): clique em **Mais informações → Executar assim mesmo**.
+1. Download `Nexo-Setup-x.y.z.exe` and run it.
+2. On first launch, SmartScreen may show "unknown publisher" (the app is not signed yet): click **More info → Run anyway**.
 
 ### Linux
 
-- **AppImage** (recomendado, com atualização automática):
+- **AppImage** (recommended, with automatic updates):
   ```bash
   chmod +x Nexo-x.y.z.AppImage
   ./Nexo-x.y.z.AppImage
@@ -48,21 +52,21 @@ Baixe o instalador da sua plataforma na **[página de releases](https://github.c
 
 ### macOS
 
-1. Abra o `Nexo-x.y.z.dmg` e arraste o Nexo para Aplicativos.
-2. Como o app ainda não é notarizado, na primeira vez clique com o botão direito → **Abrir** e confirme.
+1. Open `Nexo-x.y.z.dmg` and drag Nexo into Applications.
+2. Since the app is not notarized yet, the first time right-click → **Open** and confirm.
 
-## Atualizações automáticas
+## Automatic updates
 
-O Nexo se **atualiza sozinho**: ao abrir, ele checa por novas versões aqui no repositório de releases e avisa quando há uma disponível. Você decide quando **baixar** e, depois, **reiniciar** para aplicar; nada é instalado às escondidas. (Windows e Linux AppImage têm atualização automática; pacotes `.deb` são atualizados pelo gerenciador do sistema.)
+Nexo **updates itself**: on launch it checks for new versions here in the releases repository and notifies you when one is available. You decide when to **download** and then **restart** to apply; nothing is installed silently. (Windows and Linux AppImage support automatic updates; `.deb` packages are updated by the system package manager.)
 
-## Suporte
+## Support
 
-Encontrou um problema ou tem uma sugestão? Abra uma **[issue](https://github.com/DouglasVulcano/nexo-releases/issues)** neste repositório.
+Found a problem or have a suggestion? Open an **[issue](https://github.com/DouglasVulcano/nexo-releases/issues)** in this repository.
 
-## Licença
+## License
 
-Distribuído sob a licença [MIT](LICENSE).
+Distributed under the [MIT](LICENSE) license.
 
 ---
 
-<sub>Nexo é um projeto independente e não é afiliado à Anthropic. "Claude" e "Claude Code" são marcas da Anthropic.</sub>
+<sub>Nexo is an independent project and is not affiliated with Anthropic. "Claude" and "Claude Code" are trademarks of Anthropic.</sub>
