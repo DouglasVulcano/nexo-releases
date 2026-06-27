@@ -13,7 +13,7 @@
 <p align="center">
   <a href="https://github.com/DouglasVulcano/nexo-releases/releases/latest"><img src="https://img.shields.io/github/v/release/DouglasVulcano/nexo-releases?label=vers%C3%A3o&color=f2762e" alt="Última versão" /></a>
   <a href="https://github.com/DouglasVulcano/nexo-releases/releases"><img src="https://img.shields.io/github/downloads/DouglasVulcano/nexo-releases/total?label=downloads&color=47848F" alt="Downloads" /></a>
-  <a href="LICENSE"><img src="https://img.shields.io/badge/licen%C3%A7a-MIT-blue.svg" alt="Licença MIT" /></a>
+  <a href="LICENSE"><img src="https://img.shields.io/badge/licen%C3%A7a-propriet%C3%A1ria-555.svg" alt="Licença proprietária" /></a>
   <img src="https://img.shields.io/badge/plataformas-Windows%20%C2%B7%20Linux%20%C2%B7%20macOS-555" alt="Plataformas" />
 </p>
 
@@ -65,7 +65,10 @@ Encontrou um problema ou tem uma sugestão? Abra uma **[issue](https://github.co
 
 ## Licença
 
-Distribuído sob a licença [MIT](LICENSE).
+O Nexo é um software proprietário, licenciado e não vendido. Não é permitido
+redistribuir, revender, descompilar ou fazer engenharia reversa. O uso está
+sujeito ao [Contrato de Licença de Usuário Final](LICENSE) e, para os recursos
+pagos, a uma assinatura ativa.
 
 ---
 
