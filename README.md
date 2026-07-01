@@ -11,7 +11,7 @@
 </p>
 
 <p align="center">
-  <a href="https://github.com/DouglasVulcano/nexo-releases/releases/latest"><img src="https://img.shields.io/github/v/release/DouglasVulcano/nexo-releases?label=version&color=f2762e" alt="Latest version" /></a>
+  <a href="https://github.com/DouglasVulcano/nexo-releases/releases/latest"><img src="https://img.shields.io/github/v/release/DouglasVulcano/nexo-releases?label=version&color=FFD700" alt="Latest version" /></a>
   <a href="https://github.com/DouglasVulcano/nexo-releases/releases"><img src="https://img.shields.io/github/downloads/DouglasVulcano/nexo-releases/total?label=downloads&color=47848F" alt="Downloads" /></a>
   <a href="LICENSE"><img src="https://img.shields.io/badge/license-proprietary-555.svg" alt="Proprietary License" /></a>
   <img src="https://img.shields.io/badge/platforms-Windows%20%C2%B7%20Linux%20%C2%B7%20macOS-555" alt="Platforms" />
