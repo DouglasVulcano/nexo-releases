@@ -65,10 +65,9 @@ Encontrou um problema ou tem uma sugestão? Abra uma **[issue](https://github.co
 
 ## Licença
 
-O Nexo é um software proprietário, licenciado e não vendido. Não é permitido
-redistribuir, revender, descompilar ou fazer engenharia reversa. O uso está
-sujeito ao [Contrato de Licença de Usuário Final](LICENSE) e, para os recursos
-pagos, a uma assinatura ativa.
+O Nexo é um software proprietário, licenciado e não vendido, de uso gratuito.
+Não é permitido redistribuir, revender, descompilar ou fazer engenharia reversa.
+O uso está sujeito ao [Contrato de Licença de Usuário Final](LICENSE).
 
 ---
 
