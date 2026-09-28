@@ -10,12 +10,12 @@ By downloading, installing or using the Software, you agree to be bound by this
 Agreement. If you do not agree, do not download, install or use the Software.
 
 1. License grant
-   The Software is licensed, not sold. Subject to this Agreement, Licensor grants
-   you a personal, non-exclusive, non-transferable, revocable license to install
-   and use the Software on devices you own or control, for your own use. Cloud
-   features (synchronization and session backup) require an active paid
-   subscription and are governed by the additional terms published at
-   https://nexofordev.com.
+   The Software is licensed, not sold. Subject to this Agreement, Licensor
+   grants you a personal, non-exclusive, non-transferable, revocable, free of
+   charge license to install and use the Software on devices you own or control,
+   for your own use. Optional cloud features (synchronization and session
+   backup), when offered, require signing in and are governed by the Privacy
+   Policy and Terms of Use published at https://nexofordev.com/policies.
 
 2. Restrictions
    You may not, in whole or in part: (a) redistribute, resell, sublicense, rent,
@@ -33,11 +33,15 @@ Agreement. If you do not agree, do not download, install or use the Software.
    title and interest in and to the Software, including all intellectual property
    rights. No rights are granted other than those expressly stated herein.
 
-4. Subscription and cloud services
-   The local application is provided free of charge. Paid features are licensed
-   for the duration of an active subscription. Upon expiration or cancellation,
-   access to the paid features ends at the close of the paid period. Billing is
-   handled by third-party providers; their terms apply to payment processing.
+4. Free of charge; cloud services
+   The Software is provided free of charge: no fee or subscription is required
+   to download, install or use it. Being free of charge does not grant any right
+   to redistribute, resell or sublicense the Software (see Section 2). Optional
+   cloud features, when offered, are provided "as available", may be subject to
+   usage limits (such as storage quotas) and may be changed or discontinued at
+   any time. If Licensor introduces paid features in the future, they will be
+   offered under separate terms, and you will not be charged unless you
+   expressly accept those terms.
 
 5. Third-party software and trademarks
    The Software interoperates with third-party tools, including Claude Code. Nexo

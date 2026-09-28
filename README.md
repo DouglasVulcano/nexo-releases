@@ -65,10 +65,9 @@ Found a problem or have a suggestion? Open an **[issue](https://github.com/Dougl
 
 ## License
 
-Nexo is proprietary software, licensed and not sold. Redistribution, resale,
-decompilation and reverse engineering are not permitted. Use is subject to the
-[End User License Agreement](LICENSE) and, for paid features, an active
-subscription.
+Nexo is proprietary software, licensed and not sold, and free of charge to use.
+Redistribution, resale, decompilation and reverse engineering are not permitted.
+Use is subject to the [End User License Agreement](LICENSE).
 
 ---
 
