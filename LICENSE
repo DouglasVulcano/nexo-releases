@@ -50,6 +50,17 @@ Agreement. If you do not agree, do not download, install or use the Software.
    only to describe compatibility. You are responsible for complying with the terms
    of any third-party software you use with the Software.
 
+   WhatsApp. The optional Contacts feature connects to WhatsApp through a
+   separate open source component (GPL-3.0) that is an unofficial client of the
+   WhatsApp Web protocol and is downloaded only when you choose to connect. Using
+   it may violate the WhatsApp Terms of Service, and WhatsApp may restrict or ban
+   the linked number. You use this feature at your own risk and are solely
+   responsible for complying with the WhatsApp terms and with the law that applies
+   to the personal data of your contacts. Licensor does not guarantee that the
+   feature will keep working and is not liable for any restriction of your number
+   or account. Nexo is not affiliated with, sponsored or endorsed by WhatsApp or
+   Meta; "WhatsApp" is a trademark of Meta Platforms, Inc.
+
 6. Disclaimer of warranty
    THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
    IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,

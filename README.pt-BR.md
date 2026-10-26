@@ -72,7 +72,7 @@ Encontrou um problema ou tem uma sugestão? Abra uma **[issue](https://github.co
 
 ## Componentes de terceiros
 
-A conexão com o WhatsApp usa um componente separado, de código aberto (GPL-3.0), baixado uma única vez quando você conecta o seu número: [nexo-wa-engine](https://github.com/DouglasVulcano/nexo-wa-engine). Ele não faz parte do instalador e fala só com os servidores do WhatsApp. É um cliente não oficial do protocolo do WhatsApp Web e pode parar de funcionar quando o protocolo mudar.
+A conexão com o WhatsApp usa um componente separado, de código aberto (GPL-3.0), baixado uma única vez quando você conecta o seu número: [nexo-wa-engine](https://github.com/DouglasVulcano/nexo-wa-engine). Ele não faz parte do instalador e fala só com os servidores do WhatsApp. É um cliente não oficial do protocolo do WhatsApp Web: usá-lo pode violar os termos de uso do WhatsApp, o número pode ser restringido e o recurso pode parar de funcionar quando o protocolo mudar. O app pede o seu consentimento antes de conectar.
 
 ## Licença
 
@@ -82,4 +82,4 @@ O uso está sujeito ao [Contrato de Licença de Usuário Final](LICENSE).
 
 ---
 
-<sub>Nexo é um projeto independente e não é afiliado à Anthropic. "Claude" e "Claude Code" são marcas da Anthropic.</sub>
+<sub>Nexo é um projeto independente e não é afiliado à Anthropic, ao WhatsApp nem à Meta. "Claude" e "Claude Code" são marcas da Anthropic; "WhatsApp" é marca da Meta Platforms, Inc.</sub>
