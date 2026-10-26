@@ -29,6 +29,13 @@
 
 O **Nexo** é um ambiente de desenvolvimento desktop pensado para quem trabalha com o [Claude Code](https://github.com/anthropics/claude-code). Ele reúne, em um só lugar, o fluxo de quem desenvolve com agentes de IA: rápido, integrado e multiplataforma, com tratamento de primeira classe para [WSL](https://learn.microsoft.com/windows/wsl/) no Windows.
 
+## Principais recursos
+
+- **Sessões do Claude Code** em terminais integrados, com workspaces, painéis divididos, Git, banco de dados, Kanban e navegador para front-end.
+- **Modo orquestração:** uma equipe de agentes que planeja, implementa e revisa cada pedido, com o andamento de cada agente na tela.
+- **Ditado por voz** para qualquer sessão, com transcrição no próprio computador.
+- **Contatos e WhatsApp:** converse sem sair do Nexo e deixe as sessões lerem os pedidos e prepararem respostas; nenhuma mensagem sai sem a sua aprovação.
+
 ## Download e instalação
 
 Baixe o instalador da sua plataforma na **[página de releases](https://github.com/DouglasVulcano/nexo-releases/releases/latest)**.
@@ -63,6 +70,10 @@ O Nexo se **atualiza sozinho**: ao abrir, ele checa por novas versões aqui no r
 
 Encontrou um problema ou tem uma sugestão? Abra uma **[issue](https://github.com/DouglasVulcano/nexo-releases/issues)** neste repositório.
 
+## Componentes de terceiros
+
+A conexão com o WhatsApp usa um componente separado, de código aberto (GPL-3.0), baixado uma única vez quando você conecta o seu número: [nexo-wa-engine](https://github.com/DouglasVulcano/nexo-wa-engine). Ele não faz parte do instalador e fala só com os servidores do WhatsApp. É um cliente não oficial do protocolo do WhatsApp Web: usá-lo pode violar os termos de uso do WhatsApp, o número pode ser restringido e o recurso pode parar de funcionar quando o protocolo mudar. O app pede o seu consentimento antes de conectar.
+
 ## Licença
 
 O Nexo é um software proprietário, licenciado e não vendido, de uso gratuito.
@@ -71,4 +82,4 @@ O uso está sujeito ao [Contrato de Licença de Usuário Final](LICENSE).
 
 ---
 
-<sub>Nexo é um projeto independente e não é afiliado à Anthropic. "Claude" e "Claude Code" são marcas da Anthropic.</sub>
+<sub>Nexo é um projeto independente e não é afiliado à Anthropic, ao WhatsApp nem à Meta. "Claude" e "Claude Code" são marcas da Anthropic; "WhatsApp" é marca da Meta Platforms, Inc.</sub>
