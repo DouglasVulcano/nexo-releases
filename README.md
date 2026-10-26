@@ -29,6 +29,13 @@
 
 **Nexo** is a desktop development environment built for people working with [Claude Code](https://github.com/anthropics/claude-code). It brings the AI-agent development workflow together in one place: fast, integrated and cross-platform, with first-class support for [WSL](https://learn.microsoft.com/windows/wsl/) on Windows.
 
+## Highlights
+
+- **Claude Code sessions** in embedded terminals, with workspaces, split panes, Git, databases, Kanban and a browser for front-end work.
+- **Orchestration mode:** a team of agents that plans, builds and reviews each request, with every agent's progress on screen.
+- **Voice dictation** into any session, transcribed on your computer.
+- **Contacts and WhatsApp:** chat without leaving Nexo and let sessions read requests and draft replies; no message goes out without your approval.
+
 ## Download and install
 
 Download the installer for your platform from the **[releases page](https://github.com/DouglasVulcano/nexo-releases/releases/latest)**.
@@ -62,6 +69,10 @@ Nexo **updates itself**: on launch it checks for new versions here in the releas
 ## Support
 
 Found a problem or have a suggestion? Open an **[issue](https://github.com/DouglasVulcano/nexo-releases/issues)** in this repository.
+
+## Third-party components
+
+The WhatsApp connection uses a separate open source component (GPL-3.0), downloaded once when you link your number: [nexo-wa-engine](https://github.com/DouglasVulcano/nexo-wa-engine). It is not part of the installer and talks only to WhatsApp servers. It is an unofficial client of the WhatsApp Web protocol and can stop working when the protocol changes.
 
 ## License
 
