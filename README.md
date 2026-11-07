@@ -32,9 +32,9 @@
 ## Highlights
 
 - **Claude Code sessions** in embedded terminals, with workspaces, split panes, Git, databases, Kanban and a browser for front-end work.
-- **Orchestration mode:** a team of agents that plans, builds and reviews each request, with every agent's progress on screen.
+- **Orchestration mode:** a team of agents that plans, builds and reviews each request, with every agent's progress on screen, parallel copies of an agent, a token limit for the run and a terminal dock for the project folder.
 - **Voice dictation** into any session, transcribed on your computer.
-- **Contacts and WhatsApp:** chat without leaving Nexo and let sessions read requests and draft replies; no message goes out without your approval.
+- **Contacts and WhatsApp:** chat without leaving Nexo and let sessions read requests and draft replies; no message goes out without your approval. Disconnecting WhatsApp unlinks Nexo from your phone and erases its local WhatsApp data.
 
 ## Download and install
 
@@ -59,12 +59,12 @@ Download the installer for your platform from the **[releases page](https://gith
 
 ### macOS
 
-1. Open `Nexo-x.y.z.dmg` and drag Nexo into Applications.
+1. Open `Nexo-x.y.z-arm64.dmg` and drag Nexo into Applications. The build is for Apple Silicon (M1 or later) only; Intel Macs are not supported.
 2. Since the app is not notarized yet, the first time right-click → **Open** and confirm.
 
 ## Automatic updates
 
-Nexo **updates itself**: on launch it checks for new versions here in the releases repository and notifies you when one is available. You decide when to **download** and then **restart** to apply; nothing is installed silently. (Windows and Linux AppImage support automatic updates; `.deb` packages are updated by the system package manager.)
+Nexo **updates itself**: on launch it checks for new versions here in the releases repository and notifies you when one is available. You decide when to **download** and then **restart** to apply; nothing is installed silently. (Windows and the Linux AppImage update this way. With the `.deb` package and on macOS, download the new version from the releases page and install it over the current one.)
 
 ## Support
 

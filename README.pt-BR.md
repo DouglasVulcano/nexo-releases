@@ -32,9 +32,9 @@ O **Nexo** é um ambiente de desenvolvimento desktop pensado para quem trabalha 
 ## Principais recursos
 
 - **Sessões do Claude Code** em terminais integrados, com workspaces, painéis divididos, Git, banco de dados, Kanban e navegador para front-end.
-- **Modo orquestração:** uma equipe de agentes que planeja, implementa e revisa cada pedido, com o andamento de cada agente na tela.
+- **Modo orquestração:** uma equipe de agentes que planeja, implementa e revisa cada pedido, com o andamento de cada agente na tela, cópias de um agente em paralelo, limite de tokens por execução e um dock de terminal na pasta do projeto.
 - **Ditado por voz** para qualquer sessão, com transcrição no próprio computador.
-- **Contatos e WhatsApp:** converse sem sair do Nexo e deixe as sessões lerem os pedidos e prepararem respostas; nenhuma mensagem sai sem a sua aprovação.
+- **Contatos e WhatsApp:** converse sem sair do Nexo e deixe as sessões lerem os pedidos e prepararem respostas; nenhuma mensagem sai sem a sua aprovação. Desconectar o WhatsApp remove o Nexo dos aparelhos conectados do seu celular e apaga os dados locais do WhatsApp.
 
 ## Download e instalação
 
@@ -59,12 +59,12 @@ Baixe o instalador da sua plataforma na **[página de releases](https://github.c
 
 ### macOS
 
-1. Abra o `Nexo-x.y.z.dmg` e arraste o Nexo para Aplicativos.
+1. Abra o `Nexo-x.y.z-arm64.dmg` e arraste o Nexo para Aplicativos. O build é só para Apple Silicon (M1 ou mais novo); Macs com Intel não são suportados.
 2. Como o app ainda não é notarizado, na primeira vez clique com o botão direito → **Abrir** e confirme.
 
 ## Atualizações automáticas
 
-O Nexo se **atualiza sozinho**: ao abrir, ele checa por novas versões aqui no repositório de releases e avisa quando há uma disponível. Você decide quando **baixar** e, depois, **reiniciar** para aplicar; nada é instalado às escondidas. (Windows e Linux AppImage têm atualização automática; pacotes `.deb` são atualizados pelo gerenciador do sistema.)
+O Nexo se **atualiza sozinho**: ao abrir, ele checa por novas versões aqui no repositório de releases e avisa quando há uma disponível. Você decide quando **baixar** e, depois, **reiniciar** para aplicar; nada é instalado às escondidas. (Windows e o Linux AppImage se atualizam assim. Com o pacote `.deb` e no macOS, baixe a nova versão na página de releases e instale por cima da atual.)
 
 ## Suporte
 
